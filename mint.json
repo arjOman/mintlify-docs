@@ -18,18 +18,14 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:support@mogoj.ai"
+      "url": "mailto:mogojai@proton.me"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://mitra.mogoj.ai"
+    "name": "Join discord",
+    "url": "https://discord.gg/RPCwGjgTak"
   },
   "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    },
     {
       "name": "Use Cases",
       "url": "use-cases"
@@ -37,72 +33,55 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Website",
+      "icon": "browser",
+      "url": "https://mogoj.framer.website/"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "icon": "discord",
+      "url": "https://discord.gg/RPCwGjgTak"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
       "group": "Core",
       "pages": [
-        "docs/core/promptable"
+        "docs/core/promptable",
+        "docs/core/model",
+        "docs/core/agent",
+        "docs/core/app",
+        "docs/core/knowledge"
       ]
     },
     {
-      "group": "LLMs",
+      "group": "Language Models",
       "pages": [
-        "essentials/reusable-snippets"
+        "docs/models/providers"
       ]
     },
     {
       "group": "Agents",
       "pages": [
-        "essentials/markdown"
+        "docs/agents/algorithms"
       ]
     },
     {
       "group": "Apps",
       "pages": [
-        "essentials/markdown"
+        "docs/apps/types"
       ]
     },
     {
       "group": "Knowledge",
       "pages": [
-        "essentials/markdown"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "docs/knowledge/docs"
       ]
     },
     {
