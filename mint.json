@@ -1,34 +1,38 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Mogoj Mitra",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#585df4",
+    "light": "#585df4",
+    "dark": "#7377EC",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#585df4",
+      "to": "#7377EC"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@mogoj.ai"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://mitra.mogoj.ai"
   },
   "tabs": [
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "Use Cases",
+      "url": "use-cases"
     }
   ],
   "anchors": [
@@ -58,14 +62,33 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Core",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
+        "docs/core/promptable"
+      ]
+    },
+    {
+      "group": "LLMs",
+      "pages": [
         "essentials/reusable-snippets"
+      ]
+    },
+    {
+      "group": "Agents",
+      "pages": [
+        "essentials/markdown"
+      ]
+    },
+    {
+      "group": "Apps",
+      "pages": [
+        "essentials/markdown"
+      ]
+    },
+    {
+      "group": "Knowledge",
+      "pages": [
+        "essentials/markdown"
       ]
     },
     {
@@ -81,11 +104,17 @@
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
       ]
+    },
+    {
+      "group": "Use Cases",
+      "pages": [
+        "use-cases/research"
+      ]
     }
   ],
   "footerSocials": {
     "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
+    "github": "https://github.com/mogoj_ai",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
 }

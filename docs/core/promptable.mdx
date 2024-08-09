@@ -1,0 +1,72 @@
+---
+title: 'Promptable'
+description: 'Systems receiving user input and providing any form of output.'
+icon: 'sparkle'
+---
+
+A single unit of process that takes users input into account and provides any form of output to satisy the user's request.
+
+There are 4 types of promptables to meet the user's needs. Higher types increase the chances of fulfilling the user's query.
+
+## <Icon size={24} icon="sparkles" iconType="solid" /> LLM  <span style={{color: "gray", fontWeight: "normal", fontSize: "1rem"}}>v0</span>
+The user directly interacts with *any* language model to get the *desired* output.
+
+<Accordion title="Tasks it can tackle" defaultOpen={true}>
+- <span><Icon icon="messages" iconType="solid" /> Question Answering</span>
+- <span><Icon icon="pen-fancy" iconType="solid" /> Creative writing</span>
+- <span><Icon icon="magnifying-glass" iconType="solid" /> Deep Analysis</span>
+- <span><Icon icon="pen" iconType="solid" /> Summarization</span>
+- <span><Icon icon="code" iconType="solid" /> Code generation</span>
+</Accordion>
+
+## <Icon size={24} icon="robot" iconType="solid" /> Agent <span style={{color: "gray", fontWeight: "normal", fontSize: "1rem"}}>v1</span>
+
+An *instruction-following* language model combined with an [agent algorithm]() takes the user's query and *strategically* interacts with [apps]() and [knowledgebases]() to fulfill the *desired* outcome. 
+
+With [reasoning]() abilities, it can verify the rationality of its thoughts and rethink its decisions.
+
+It can also ask the user for [clarification]() if needed, on the way.
+
+<Accordion title="Tasks it can tackle" defaultOpen={true}>
+- **Everything in LLM**
+- <span><Icon icon="play" iconType="solid" /> App calls</span>
+- <span><Icon icon="book-open" iconType="solid" /> Knowledge retrieval</span>
+- <span><Icon icon="messages-question" iconType="solid" /> Reasoning</span>
+- <span><Icon icon="list-tree" iconType="solid" /> Strategic task plan</span>
+</Accordion>
+
+<Note>
+    Instruction-following language models are finetuned to abide by instructions given by the system or user. Agentic algorithms provide complex instructions for the language models to follow.
+
+    Therefore, Chat models are not supported for agents.
+</Note>
+
+## <Icon size={24} icon="users" iconType="solid" /> Swarm <span style={{color: "gray", fontWeight: "normal", fontSize: "1rem"}}> v2</span>
+
+Orchestrates multiple agents to work together to fulfill the user's query.
+
+<Accordion title="Tasks it can tackle" defaultOpen={true}>
+- **Everything in Agent**
+- <span><Icon icon="briefcase" iconType="solid" /> Role playing tasks</span>
+- <span><Icon icon="handshake" iconType="solid" /> Co-operative tasks</span>
+- <span><Icon icon="sitemap" iconType="solid" /> Organizational tasks</span>
+</Accordion>
+
+<Info>
+    Swarms will be available in v2.
+</Info>
+
+## <Icon size={24} icon="diagram-project" iconType="solid" /> Workflow <span style={{color: "gray", fontWeight: "normal", fontSize: "1rem"}}>v3</span>
+
+A graphical, logical flow of llms, agents, swarms, knowledge and apps to fulfill complex user queries.
+
+<Accordion title="Tasks it can tackle" defaultOpen={true}>
+- <span><Icon icon="arrow-progress" iconType="solid" /> Business Process Automation</span>
+- <span><Icon icon="joystick" iconType="solid" /> Controlled agents</span>
+- <span><Icon icon="circles-overlap" iconType="solid" /> Logical Decisionmaking</span>
+</Accordion>
+
+<Info>
+    Workflows will be available in v3.
+</Info>
+
